@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 90%;
+    font-size: 18px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 85em;
+    min-width: 30.5em;
+    height: auto;
+
+    border: .5em solid black;
+    margin:1em auto;
+
+    line-height: 50px;
+    text-align: center;
+    padding: .8em;
+   
+}
+
+.contenedor .header  {
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    display: table-cell;
+    vertical-align: middle ;
+    
+   
+}
+.contenedor .header .nombre{
+    width: auto;
+    color: rgb(255, 255, 255);   
+    text-align: center;
+    line-height: center;
+    font-size: .8em;
+    padding: .8em;
+    /* border-radius: 2em; */
+    /* float: right; */
+    
+}
+.contenedor .header .foto img{
+    width: 9.37rem;
+   margin: auto;
+    border-radius: 25%;
+    background-color: rgb(0, 0, 0);
+    /* padding: 10em auto 10em 10em; 
+    padding: .8em; */
+}
+.contenedor .header .foto {
+    width: 9.37rem;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+
+    
+}
+.contenedor h3{
+    width: 90%;
+    padding: 0.31rem;  
+    background-color: black;
+    color: white;
+    margin: 0.31rem auto;
+    border-radius: .8em;
+    
+}
+
+
+
+.contenedor .info2 ul{
+  list-style-type: none;  
+}
+.contenedor .info3 a{
+    
+    text-decoration: none;
+}
+.contenedor .info3 a:visited{
+    text-decoration: line-through;
+    color: rgb(159, 165, 170);
+}
+.contenedor .info3 a:active{
+    background-color: rgb(14, 13, 13);
+}
+.contenedor .info3 a:link{
+        color: rgb(122, 216, 27);
+}
+.contenedor .info1 .acercaDeMi, .contenedor .info2 div, .contenedor .info3 div, .contenedor .info4 div{
+    width: 80%;
+    margin: auto;
+    
+}
+.contenedor .info3 div,
+.contenedor .info2 div ul,
+.contenedor .info4 div ul{
+    padding-left:2rem;
+}
+.contenedor .info1 .acercaDeMi,
+.contenedor .info2 div,
+.contenedor .info3 div,
+.contenedor .info4 div {
+    text-align: left;
+    line-height: 2.3rem;
+}
+
